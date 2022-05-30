@@ -1,0 +1,16 @@
+{
+  "name": "base",
+  "version": "1.0.0",
+  "description": "---\r page_type: sample\r urlFragment: office-add-in-hello-world\r products:\r   - office-add-ins\r   - office\r languages:\r   - javascript\r extensions:\r   contentType: samples\r   technologies:\r     - Add-ins\r   createdDate: '10/11/2021 10:00:00 AM'\r description: 'Create a simple Office Add-in that displays hello world.'\r ---",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
